@@ -42,7 +42,6 @@ input.button {
   background: transparent;
   display: block;
   width: 200px;
-  height: 50px;
   padding-top: 5px;
   @include box-shadow(5px 5px 0 -2px $bege-medio, 5px 5px 0 0 $bege-escuro);
   transition: 0.3s;

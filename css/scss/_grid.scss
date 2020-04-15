@@ -23,7 +23,7 @@ $s-device: 480px;
       @content;
     }
   } @else if $size == s {
-    @media screen and (max-width: #{$s-device} - 1) {
+    @media screen and (max-width: #{$m-device} - 1) {
       @content;
     }
   }
@@ -115,8 +115,8 @@ $s-device: 480px;
 
 @mixin row {
   position: relative;
-  margin-left: -$gutter / 2;
-  margin-right: -$gutter / 2;
+  margin-left: -$gutter/2;
+  margin-right: -$gutter/2;
   @include d(s) {
     margin-left: 0px;
     margin-right: 0px;
